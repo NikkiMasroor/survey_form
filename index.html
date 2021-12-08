@@ -1,1 +1,71 @@
-<h1 id="title">Tell me about music</h1>
+<html lang="en">
+  <head>
+    <style>
+      body{
+        font-family: sans-serif;
+        padding-left: 33%;
+        padding-right: 33%;
+      }
+      label{
+        font-size:18px;
+        display: block;
+        padding-bottom:10px;
+      }
+      input{
+        display = block;
+      }
+
+      form{
+        background-color:lightblue;
+
+      }
+
+      
+    </style>
+
+
+  </head>
+
+
+
+  <body>
+    <h1 id="title">Tell me about music</h1>
+    <p id="description">
+      This is a survey where you can tell us about the music
+    </p>
+    <form id="survey-form">
+        <label id="name-label">Name:</label>
+        <input type="text" name ="name" required id="name" placeholder="Name"><br>
+        <label id="email-label">Email:</label>
+        <input type="email" name ="email" id="email" required placeholder="Email"><br>
+        <label id="number-label">Number:</label>
+        <input type="number" name="number" id="number" min="0" max="100" required placeholder="Level of exitement"><br>
+        <input type="submit">
+
+        <select id="dropdown" name ="guitars">
+          <option value="fender">Fender</option>
+          <option value="martin">Martin</option>
+          <option value="epiphone">Epiphone</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+
+
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+        <input type="checkbox" name="vehicle3" value="Boat"> I have a boat<br>
+
+        <textarea placeholder="Add additional comments"></textarea>
+        <input type="submit" id="submit">
+
+
+
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+  </body>
