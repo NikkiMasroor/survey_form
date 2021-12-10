@@ -1,0 +1,139 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434- dark gray
+#577590 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+#DDBBA9 - pink
+#90BE6D - green
+#FFE8D6 - beige
+
+/*Global styles
+-----------------------------*/
+
+
+
+
+body{
+  color: #343434;
+  font-family:"Montserrat", sans-serif;
+  padding-left: 10%;
+  padding-right: 50%;
+  font-size: 18px;
+  line-height:1.5;
+  margin: 0;
+  background-image: url("2.jpg");
+}
+
+#survey-form{
+  background-color: #e7dfdf;
+  padding: 20px;
+}
+
+#title{
+  font-size: 45px;
+  line-height: 1;
+  font-style:normal;
+  padding-top: 40px;
+
+
+}
+label{
+  font-size:18px;
+  display: block;
+  padding-bottom:0px;
+}
+input{
+  display = block;
+}
+
+f
+
+#description{
+  font-style: italic;
+  padding-bottom: 20px ;
+  font-size: 16px;
+}
+
+
+
+#name{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 95%;
+  border-radius: 5px;
+}
+
+#email-label{
+  padding-top: 30px;
+}
+
+#email{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 95%;
+  border-radius: 5px;
+}
+
+#number{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 95%;
+  border-radius: 5px;
+}
+
+#number-label{
+  padding-top: 30px;
+}
+
+#dropdown1{
+  padding-bottom: 0px;
+  padding-top: 20px;
+
+}
+
+#dropdown{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 95%;
+  border-radius: 5px;
+}
+
+#radio{
+  padding-bottom: 20px;
+
+}
+
+#checkbox{
+  padding-bottom: 20px;
+
+}
+
+#comment{
+  padding-bottom: 20px;
+}
+
+#addcomment{
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 95%;
+  height: 10em;
+  border-radius: 5px;
+}
+
+#submit{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 95%;
+  border-radius: 5px;
+  background-color: #a2868e;
+
+}
